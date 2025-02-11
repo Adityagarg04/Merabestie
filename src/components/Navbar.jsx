@@ -11,10 +11,10 @@ function Navbar() {
         <img src="logo.png" alt="Logo" className="w-[63px] h-[64px]" />
         <h1 className="font-italianno mr-auto text-5xl px-6 mt-2">MeraBestie.com</h1>
         <div className="mr-auto flex gap-x-0.5">
-          <h1 className="font-jetbrains mr-auto px-4 text-2xl">Shop by Category</h1>
-          <img src="down.png" alt="Logo" className="w-[23px] h-[24px] mt-2" />
+          <h1 className="font-jetbrains mr-auto px-4 text-lg">Shop by Category</h1>
+          <img src="down.png" alt="Logo" className="w-[13px] h-[14px] mt-2" />
         </div>
-        <div className="ml-auto flex gap-x-4 ">
+        <div className="ml-auto flex gap-x-6 ">
         <img src="shopping-cart.png" alt="Logo" className="w-[28px] h-[29px]  gap-x-2" />
         <img src="user.png" alt="user" className="w-[28px] h-[29px] px-auto gap-x-3" />
         <img src="menu.png" alt="Logo" className="w-[28px] h-[29px] px-auto " />

@@ -9,6 +9,8 @@ export default {
       fontFamily: {
         italianno: ["Italianno", "cursive"],
         jetbrains: ['JetBrains Mono', 'monospace'],
+        Kdam: ["Kdam Thmor Pro", 'serif'],
+        Kelly: ['Kelly Slab', 'serif'],
       }
     },
   },
