@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         italianno: ["Italianno", "cursive"],
+        jetbrains: ['JetBrains Mono', 'monospace'],
       }
     },
   },

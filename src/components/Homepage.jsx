@@ -4,10 +4,8 @@ import backgroundImage from '../image/homebackground.jpg'; // Adjust the path ba
 function Homepage() {
   return (
     <div
-      className=" bg-cover bg-center bg-no-repeat   flex justify-center items-center"
-      style={{ backgroundImage: `url(${backgroundImage})`,
-      width: "100vw",  /* Full width of the viewport */
-      height: "100vh" }}
+      className="container mr-auto w-screen h-screen bg-center bg-no-repeat flex justify-center items-center"
+      style={{ backgroundImage: `url(${backgroundImage})`}}
     >
       <h1 className="text-center p-5 text-white bg-black bg-opacity-50 text-4xl font-bold rounded-[40px]">
         Personalized Stationery
