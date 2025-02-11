@@ -1,0 +1,8 @@
+@media (max-width: 768px) {
+    .container h1 {
+      font-size: 28px;   /* Adjust font size for smaller screens */
+      padding: 10px;
+    }
+  }
+  
+  
