@@ -10,7 +10,7 @@ function Homepage() {
       backgroundBlendMode: "overlay", }}
     >
       <div>
-      <h1 className=" font-Kdam text-center p-5 text-[#2B2B2B] bg-[#7D2479] bg-opacity-15 text-7xl text-opacity-85 rounded-[40px]">
+      <h1 className=" font-Kdam text-center p-5 text-[#2B2B2B] bg-[#7D2479] bg-opacity-15 text-7xl  text-opacity-85 rounded-[40px]">
         Personalized Stationery
       </h1>
       <h1 className=" font-Kdam text-center text-[#7D2479] opacity-100 stroke-[#7D2479] text-2xl "> 
