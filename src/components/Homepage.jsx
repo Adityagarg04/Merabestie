@@ -11,24 +11,24 @@ function Homepage() {
     >
 
       
-      <div className='flex to'>
+      <div className='flex'>
       <div>
       <h1 className=" font-Kdam text-center p-5 text-[#2B2B2B] bg-[#7D2479] bg-opacity-15 text-7xl  text-opacity-85 rounded-[40px]">
         Personalized Stationery
       </h1>
-      <h1 className=" font-Kdam text-center text-[#7D2479] opacity-100 stroke-[#7D2479] text-2xl "> 
+      <h1 className=" ms-40 font-Kdam text-center text-[#7D2479] opacity-100 stroke-[#7D2479] text-2xl "> 
       Crafted with Love!.
       </h1>
       </div>
 
-      <div >
+      <div className=' relative   absolute top-36 left-12  ms-9  '>
         <img 
         src="flowers.jpg"
-        className=" rounded-full h-20 w-20 place-self-end m-7 ml-20  space-y-4 rotate-180"
+        className=" rounded-full h-24 w-24 place-self-end m-7 ml-20  space-y-4 rotate-180"
         />
         <img 
         src="craft.jpg"
-        className="rounded-full h-24 w-24 place-self-end m-7 ml-20  space-y-4"
+        className="rounded-full h-20 w-24 place-self-end m-7 ml-20  space-y-4"
         />
       </div>
 
@@ -39,14 +39,14 @@ function Homepage() {
       </div>
       </div>
       <div className='absolute bottom-20 right-auto '>
-      <button className="group flex justify-end text-2xl font-jetbrains bg-[rgba(125,36,121,0.80)] text-white rounded-full px-10 py-2 border-white border-2 gap-x-2 overflow-hidden relative">
+      <button className="group flex justify-end text-2xl font-jetbrains bg-[rgba(125,36,121,0.80)] text-white rounded-full px-5 py-2 border-white border-2 gap-x-1 overflow-hidden relative">
  
-  <span className="group-hover:hidden transition-opacity duration-300">SHOP NOW</span>
+  <span className=" group-hover:text-gray-800 transition-opacity duration-300">SHOP-NOW</span>
 
 
   <img 
     src="shopping-bag.png" 
-    className="h-7 w-6 absolute transition-all duration-300 ease-in-out group-hover:opacity-0 group-hover:scale-75"
+    className="h-7 w-6 absolute transition-all duration-100 ease-in-out group-hover:opacity-0 group-hover:scale-75"
   />
 
  
