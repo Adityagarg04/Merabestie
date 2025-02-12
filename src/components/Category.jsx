@@ -1,17 +1,18 @@
 import React from 'react'
 
+
 function Category() {
   return (
     <div>
 
 
  
-<div class="flex flex-col bg-white rounded-3xl">
-  <div class="px-6 py-8 sm:p-10 sm:pb-6">
-    <div class="grid items-center justify-center w-80  text-left grid-cols-3 gap-3 bg- "
-    style={{ backgroundImage: `Category-bg.jpg`,
+<div class="flex flex-col  bg-cover"  style={{ backgroundImage: `url('/category-bg.jpg')`,
           backgroundColor: "rgba(255, 255, 255, 0.45)",
-          backgroundBlendMode: "overlay", }}
+          backgroundBlendMode: "overlay", }}>
+  <div class="px-6 py-8 sm:p-10 sm:pb-6 rounded-3xl">
+    <div class="grid items-center justify-center w-80  text-left grid-cols-3 gap-3  "
+   
         >
      <button className='bg-[#F7E1E0] rounded-2xl '>Writing Essential </button>
      <button className='bg-[#0A1020] bg-opacity-25 rounded-2xl py-3'>Gifts & Wraps</button>
