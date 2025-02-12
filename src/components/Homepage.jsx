@@ -24,11 +24,7 @@ function Homepage() {
       <div className=' relative   absolute top-36 left-12  ms-9  '>
         <img 
         src="flowers.jpg"
-        className=" rounded-full  place-self-center m-7 ml-20  space-y-4 border-2 border-white size-20 "
-        />
-        <img 
-        src="cards.jpg"
-        className=" rounded-full  place-self-center m-7 ml-20  space-y-4 border-2 border-white size-24 "
+        className=" rounded-full h-20 w-24 place-self-end m-7 ml-20  space-y-4"
         />
         <img 
         src="craft.jpg"
