@@ -24,7 +24,7 @@ function Homepage() {
       <div >
         <img 
         src="flowers.jpg"
-        className=" rounded-full h-20 w-24 place-self-end m-7 ml-20  space-y-4"
+        className=" rounded-full h-24 w-24 place-self-end m-7 ml-20  space-y-4 rotate-180"
         />
       </div>
 
