@@ -26,6 +26,10 @@ function Homepage() {
         src="flowers.jpg"
         className=" rounded-full h-20 w-24 place-self-end m-7 ml-20  space-y-4"
         />
+        <img 
+        src="craft.jpg"
+        className="rounded-full h-20 w-24 place-self-end m-7 ml-20  space-y-4"
+        />
       </div>
 
       <div className=' absolute bottom-10 left-7  space-y-2 font-Kelly '>
