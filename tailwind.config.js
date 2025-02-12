@@ -11,6 +11,7 @@ export default {
         jetbrains: ['JetBrains Mono', 'monospace'],
         Kdam: ["Kdam Thmor Pro", 'serif'],
         Kelly: ['Kelly Slab', 'serif'],
+        Khand: ['Khand', 'serif'],
       }
     },
   },

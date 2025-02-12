@@ -11,7 +11,7 @@ function Homepage() {
     >
 
       
-      <div className='flex'>
+      <div className='flex to'>
       <div>
       <h1 className=" font-Kdam text-center p-5 text-[#2B2B2B] bg-[#7D2479] bg-opacity-15 text-7xl  text-opacity-85 rounded-[40px]">
         Personalized Stationery
@@ -24,11 +24,11 @@ function Homepage() {
       <div >
         <img 
         src="flowers.jpg"
-        className=" rounded-full h-24 w-24 place-self-end m-7 ml-20  space-y-4 rotate-180"
+        className=" rounded-full h-20 w-20 place-self-end m-7 ml-20  space-y-4 rotate-180"
         />
         <img 
         src="craft.jpg"
-        className="rounded-full h-20 w-24 place-self-end m-7 ml-20  space-y-4"
+        className="rounded-full h-24 w-24 place-self-end m-7 ml-20  space-y-4"
         />
       </div>
 

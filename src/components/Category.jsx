@@ -7,9 +7,11 @@ function Category() {
 
 
  
-<div class="flex flex-col  bg-cover"  style={{ backgroundImage: `url('/category-bg.jpg')`,
+<div      class="flex flex-col  bg-cover bg- "  
+          style={{ backgroundImage: `url('/category-bg.jpg')`,
           backgroundColor: "rgba(255, 255, 255, 0.45)",
-          backgroundBlendMode: "overlay", }}>
+          backgroundBlendMode: "overlay", 
+          }}>
   <div class="px-6 py-8 sm:p-10 sm:pb-6 rounded-3xl">
     <div class="grid items-center justify-center w-80  text-left grid-cols-3 gap-3  "
    

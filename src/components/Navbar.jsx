@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import Category from "./Category";
+import Menu from "./Menu";
 
 function Navbar() {
   const [showCategory, setShowCategory] = useState(false);
+  const [showMenu,setShowMenu]=useState(false);
 
   return (
     <header className="fixed top-0 left-0 w-full z-50">
@@ -29,12 +31,23 @@ function Navbar() {
               <Category />
             </div>
           )}
+
+
         </div>
 
         <div className="ml-auto flex gap-x-6">
           <img src="shopping-cart.png" alt="Cart" className="w-[28px] h-[29px]" />
           <img src="user.png" alt="User" className="w-[28px] h-[29px]" />
-          <img src="menu.png" alt="Menu" className="w-[28px] h-[29px]" />
+          <div 
+          className="mr-auto flex gap-x-0.5 relative">
+            <img src="menu.png" alt="Menu" className="w-[28px] h-[29px]" onClick={()=>{setShowMenu(true)}} />
+            {showMenu && (
+            <div className="absolute top-full right-0 bg-white shadow-lg">
+              <Menu />
+            </div>
+          )}</div>
+          
+          
         </div>
       </nav>
     </header>
